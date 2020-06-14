@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>93431168445-o826nove8bruov8nf8bg4c330s3oh8cr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.93431168445-o826nove8bruov8nf8bg4c330s3oh8cr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDrBmchF1mxu4ZP14G6E1NE2VPCR7kSiF4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>93431168445</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mikailmasood.WeCare-v-01</string>
+	<key>PROJECT_ID</key>
+	<string>wecare-v-01-4723d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wecare-v-01-4723d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:93431168445:ios:c60710f517aa09b33ce6d4</string>
+	<key>DATABASE_URL</key>
+	<string>https://wecare-v-01-4723d.firebaseio.com</string>
+</dict>
+</plist>

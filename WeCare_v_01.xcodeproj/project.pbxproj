@@ -3,20 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CA3D9B0AFCA933F65E3D6E7 /* Pods_WeCare_v_01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DCC9B78228B6640248F07C /* Pods_WeCare_v_01.framework */; };
+		DA4719072469ED26002553DC /* Pods_WeCare_v_01.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C64F598EB6EFC7A76DB197D6 /* Pods_WeCare_v_01.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DA47193E246E6EB4002553DC /* list_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47193D246E6EB4002553DC /* list_ViewController.swift */; };
+		DA471941246E7873002553DC /* VitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA471940246E7873002553DC /* VitalViewController.swift */; };
+		DA471943246E7886002553DC /* MedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA471942246E7886002553DC /* MedicationViewController.swift */; };
+		DA471945246E7894002553DC /* IntakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA471944246E7894002553DC /* IntakeViewController.swift */; };
+		DA471947246E78A5002553DC /* OutputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA471946246E78A5002553DC /* OutputViewController.swift */; };
+		DA471949246E78BB002553DC /* HygieneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA471948246E78BB002553DC /* HygieneViewController.swift */; };
+		DA47194B246E78CC002553DC /* PositioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47194A246E78CC002553DC /* PositioningViewController.swift */; };
+		DA47194D246E78DB002553DC /* BedsoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47194C246E78DB002553DC /* BedsoreViewController.swift */; };
+		DA47194F246E78E8002553DC /* DressingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47194E246E78E8002553DC /* DressingViewController.swift */; };
+		DA471951246E78F8002553DC /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA471950246E78F8002553DC /* ActivityViewController.swift */; };
+		DAA03DFA2467DF4E004C3D25 /* Datastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA03DF92467DF4D004C3D25 /* Datastore.swift */; };
 		DABF5290246016F500E7CE7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF528F246016F500E7CE7C /* AppDelegate.swift */; };
 		DABF5292246016F500E7CE7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF5291246016F500E7CE7C /* SceneDelegate.swift */; };
 		DABF5294246016F500E7CE7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF5293246016F500E7CE7C /* ViewController.swift */; };
 		DABF5297246016F500E7CE7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABF5295246016F500E7CE7C /* Main.storyboard */; };
 		DABF5299246016F700E7CE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABF5298246016F700E7CE7C /* Assets.xcassets */; };
 		DABF529C246016F700E7CE7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABF529A246016F700E7CE7C /* LaunchScreen.storyboard */; };
+		DABF52A72460180500E7CE7C /* Home_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF52A62460180500E7CE7C /* Home_ViewController.swift */; };
+		DABF52AA24601C0100E7CE7C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF52A924601C0100E7CE7C /* Utilities.swift */; };
+		DABF52AC246086DC00E7CE7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DABF52AB246086DC00E7CE7C /* GoogleService-Info.plist */; };
+		DABF52AE24608ECF00E7CE7C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF52AD24608ECF00E7CE7C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DA4719082469ED26002553DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DA4719072469ED26002553DC /* Pods_WeCare_v_01.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		DABF528C246016F500E7CE7C /* WeCare_v_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCare_v_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3660A10A411B3146B82E5BA5 /* Pods-WeCare_v_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeCare_v_01.debug.xcconfig"; path = "Target Support Files/Pods-WeCare_v_01/Pods-WeCare_v_01.debug.xcconfig"; sourceTree = "<group>"; };
+		6CD55F7DFABF5AFCD7D7074E /* Pods-WeCare_v_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeCare_v_01.release.xcconfig"; path = "Target Support Files/Pods-WeCare_v_01/Pods-WeCare_v_01.release.xcconfig"; sourceTree = "<group>"; };
+		A5DCC9B78228B6640248F07C /* Pods_WeCare_v_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeCare_v_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64F598EB6EFC7A76DB197D6 /* Pods_WeCare_v_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeCare_v_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA47193D246E6EB4002553DC /* list_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list_ViewController.swift; sourceTree = "<group>"; };
+		DA471940246E7873002553DC /* VitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalViewController.swift; sourceTree = "<group>"; };
+		DA471942246E7886002553DC /* MedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewController.swift; sourceTree = "<group>"; };
+		DA471944246E7894002553DC /* IntakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntakeViewController.swift; sourceTree = "<group>"; };
+		DA471946246E78A5002553DC /* OutputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputViewController.swift; sourceTree = "<group>"; };
+		DA471948246E78BB002553DC /* HygieneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HygieneViewController.swift; sourceTree = "<group>"; };
+		DA47194A246E78CC002553DC /* PositioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositioningViewController.swift; sourceTree = "<group>"; };
+		DA47194C246E78DB002553DC /* BedsoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedsoreViewController.swift; sourceTree = "<group>"; };
+		DA47194E246E78E8002553DC /* DressingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressingViewController.swift; sourceTree = "<group>"; };
+		DA471950246E78F8002553DC /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		DAA03DF92467DF4D004C3D25 /* Datastore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datastore.swift; sourceTree = "<group>"; };
+		DABF528C246016F500E7CE7C /* WeCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABF528F246016F500E7CE7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABF5291246016F500E7CE7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DABF5293246016F500E7CE7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +70,10 @@
 		DABF5298246016F700E7CE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DABF529B246016F700E7CE7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DABF529D246016F700E7CE7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABF52A62460180500E7CE7C /* Home_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ViewController.swift; sourceTree = "<group>"; };
+		DABF52A924601C0100E7CE7C /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		DABF52AB246086DC00E7CE7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DABF52AD24608ECF00E7CE7C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +81,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA3D9B0AFCA933F65E3D6E7 /* Pods_WeCare_v_01.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		591378B7226DF57DE93271E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5DCC9B78228B6640248F07C /* Pods_WeCare_v_01.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA47193F246E6EC1002553DC /* Patient Log View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DA471940246E7873002553DC /* VitalViewController.swift */,
+				DA471942246E7886002553DC /* MedicationViewController.swift */,
+				DA471944246E7894002553DC /* IntakeViewController.swift */,
+				DA471946246E78A5002553DC /* OutputViewController.swift */,
+				DA471948246E78BB002553DC /* HygieneViewController.swift */,
+				DA47194A246E78CC002553DC /* PositioningViewController.swift */,
+				DA47194C246E78DB002553DC /* BedsoreViewController.swift */,
+				DA47194E246E78E8002553DC /* DressingViewController.swift */,
+				DA471950246E78F8002553DC /* ActivityViewController.swift */,
+			);
+			path = "Patient Log View Controllers";
+			sourceTree = "<group>";
+		};
+		DA828EEE247D7533000C29B6 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				C64F598EB6EFC7A76DB197D6 /* Pods_WeCare_v_01.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		DABF5283246016F500E7CE7C = {
 			isa = PBXGroup;
 			children = (
 				DABF528E246016F500E7CE7C /* WeCare_v_01 */,
 				DABF528D246016F500E7CE7C /* Products */,
+				E71001176E07FF619B1B6EDC /* Pods */,
+				591378B7226DF57DE93271E5 /* Frameworks */,
+				DA828EEE247D7533000C29B6 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
 		DABF528D246016F500E7CE7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DABF528C246016F500E7CE7C /* WeCare_v_01.app */,
+				DABF528C246016F500E7CE7C /* WeCare.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +142,47 @@
 		DABF528E246016F500E7CE7C /* WeCare_v_01 */ = {
 			isa = PBXGroup;
 			children = (
+				DABF52A824601BE300E7CE7C /* Helpers */,
 				DABF528F246016F500E7CE7C /* AppDelegate.swift */,
 				DABF5291246016F500E7CE7C /* SceneDelegate.swift */,
-				DABF5293246016F500E7CE7C /* ViewController.swift */,
+				DABF52A3246017C300E7CE7C /* View Controllers */,
 				DABF5295246016F500E7CE7C /* Main.storyboard */,
 				DABF5298246016F700E7CE7C /* Assets.xcassets */,
 				DABF529A246016F700E7CE7C /* LaunchScreen.storyboard */,
+				DABF52AB246086DC00E7CE7C /* GoogleService-Info.plist */,
 				DABF529D246016F700E7CE7C /* Info.plist */,
 			);
 			path = WeCare_v_01;
+			sourceTree = "<group>";
+		};
+		DABF52A3246017C300E7CE7C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DABF5293246016F500E7CE7C /* ViewController.swift */,
+				DABF52A62460180500E7CE7C /* Home_ViewController.swift */,
+				DA47193D246E6EB4002553DC /* list_ViewController.swift */,
+				DA47193F246E6EC1002553DC /* Patient Log View Controllers */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DABF52A824601BE300E7CE7C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DABF52A924601C0100E7CE7C /* Utilities.swift */,
+				DABF52AD24608ECF00E7CE7C /* Constants.swift */,
+				DAA03DF92467DF4D004C3D25 /* Datastore.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E71001176E07FF619B1B6EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3660A10A411B3146B82E5BA5 /* Pods-WeCare_v_01.debug.xcconfig */,
+				6CD55F7DFABF5AFCD7D7074E /* Pods-WeCare_v_01.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DABF52A0246016F700E7CE7C /* Build configuration list for PBXNativeTarget "WeCare_v_01" */;
 			buildPhases = (
+				CD1E141988D3162A729146B6 /* [CP] Check Pods Manifest.lock */,
 				DABF5288246016F500E7CE7C /* Sources */,
 				DABF5289246016F500E7CE7C /* Frameworks */,
 				DABF528A246016F500E7CE7C /* Resources */,
+				DA4719082469ED26002553DC /* Embed Frameworks */,
+				9F322C9EBCBED436BB1FA63F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +205,7 @@
 			);
 			name = WeCare_v_01;
 			productName = WeCare_v_01;
-			productReference = DABF528C246016F500E7CE7C /* WeCare_v_01.app */;
+			productReference = DABF528C246016F500E7CE7C /* WeCare.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DABF529C246016F700E7CE7C /* LaunchScreen.storyboard in Resources */,
+				DABF52AC246086DC00E7CE7C /* GoogleService-Info.plist in Resources */,
 				DABF5299246016F700E7CE7C /* Assets.xcassets in Resources */,
 				DABF5297246016F500E7CE7C /* Main.storyboard in Resources */,
 			);
@@ -133,13 +255,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F322C9EBCBED436BB1FA63F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeCare_v_01/Pods-WeCare_v_01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WeCare_v_01/Pods-WeCare_v_01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeCare_v_01/Pods-WeCare_v_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD1E141988D3162A729146B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeCare_v_01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DABF5288246016F500E7CE7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABF52AA24601C0100E7CE7C /* Utilities.swift in Sources */,
+				DAA03DFA2467DF4E004C3D25 /* Datastore.swift in Sources */,
 				DABF5294246016F500E7CE7C /* ViewController.swift in Sources */,
+				DA471951246E78F8002553DC /* ActivityViewController.swift in Sources */,
+				DA471941246E7873002553DC /* VitalViewController.swift in Sources */,
+				DABF52AE24608ECF00E7CE7C /* Constants.swift in Sources */,
+				DA47194D246E78DB002553DC /* BedsoreViewController.swift in Sources */,
+				DA47194B246E78CC002553DC /* PositioningViewController.swift in Sources */,
+				DA471945246E7894002553DC /* IntakeViewController.swift in Sources */,
 				DABF5290246016F500E7CE7C /* AppDelegate.swift in Sources */,
+				DA471943246E7886002553DC /* MedicationViewController.swift in Sources */,
+				DA471947246E78A5002553DC /* OutputViewController.swift in Sources */,
+				DABF52A72460180500E7CE7C /* Home_ViewController.swift in Sources */,
+				DA47194F246E78E8002553DC /* DressingViewController.swift in Sources */,
+				DA47193E246E6EB4002553DC /* list_ViewController.swift in Sources */,
+				DA471949246E78BB002553DC /* HygieneViewController.swift in Sources */,
 				DABF5292246016F500E7CE7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,16 +460,20 @@
 		};
 		DABF52A1246016F700E7CE7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3660A10A411B3146B82E5BA5 /* Pods-WeCare_v_01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = NFYZ3J4TBM;
 				INFOPLIST_FILE = WeCare_v_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikailmasood.WeCare-v-01";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WeCare;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +481,20 @@
 		};
 		DABF52A2246016F700E7CE7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD55F7DFABF5AFCD7D7074E /* Pods-WeCare_v_01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = NFYZ3J4TBM;
 				INFOPLIST_FILE = WeCare_v_01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mikailmasood.WeCare-v-01";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WeCare;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -324,7 +510,7 @@
 				DABF529F246016F700E7CE7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		DABF52A0246016F700E7CE7C /* Build configuration list for PBXNativeTarget "WeCare_v_01" */ = {
 			isa = XCConfigurationList;
@@ -333,7 +519,7 @@
 				DABF52A2246016F700E7CE7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
